@@ -45,8 +45,8 @@ const About = () => {
           {aboutPic.map((item, i) => (
             <div key={i} className="w-full h-[200px]">
               <motion.img src={item} alt="" 
-                className='w-full h-full object-cover rounded-[20px] rotate-[-2deg] opacity-[.4]'
-                initial={{opacity:.4, rotate: -2, scale:1}} whileHover={{opacity:1, rotate: 2, scale:1.1}} whileTap={{opacity:1, rotate: 2, scale:1.1}}
+                className='w-full h-full object-cover rounded-[20px] rotate-[-2deg] sm:opacity-[.4] opacity-[1]'
+                initial={{rotate: -2, scale:1}} whileHover={{opacity:1, rotate: 2, scale:1.1}} whileTap={{opacity:1, rotate: 2, scale:1.1}}
               />
             </div>
           ))}
