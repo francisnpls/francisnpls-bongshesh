@@ -50,6 +50,7 @@ const Projects = () => {
                     ))}
                   </div>
                   <div className="flex gap-4 items-center mt-7"> 
+                    <a href={item.link} target="_blank">
                     <motion.button 
                       className="w-[125px] p-[12px] text-lightWhite font-[400] border-solid border-[1px] border-secondary rounded-[10px] bg-[#4769e323] hover:bg-[#4769e314] cursor-pointer"
                       whileHover={{scale:1.1}}
@@ -57,15 +58,19 @@ const Projects = () => {
                     >
                       {item.btn}
                     </motion.button>
-                    <motion.div 
-                      className={`${styles.flexCenter} sm:text-[20px] text-[16px] text-primary w-[45px] h-[45px] bg-[#21222f] rounded-full cursor-pointer relative social-link`}
-                        whileHover={{ scale: 1.1, y:-5 }}
-                        whileTap={{ scale: 0.9 }}
-                    >
-                      <FiGithub />
-                    </motion.div>    
+                    </a>
+                    <a href={item.github} target="_blank">
+                      <motion.div 
+                        className={`${styles.flexCenter} sm:text-[20px] text-[16px] text-primary w-[45px] h-[45px] bg-[#21222f] rounded-full cursor-pointer relative social-link`}
+                          whileHover={{ scale: 1.1, y:-5 }}
+                          whileTap={{ scale: 0.9 }}
+                      >
+                        <FiGithub />
+                      </motion.div>  
+                    </a>
                   </div>
                 </div>
+
                 <div className="absolute right-[5px] sm:bottom-0 bottom-[-10px]">
                   <motion.div className="arrow-alternate" variants={arrowAnimate} initial="initial" animate="animate"/>
                 </div>

@@ -94,6 +94,8 @@ export const projects = [
             "Vite", "React", "Tailwind"
         ],
         btn: "Take a look",
+        link: "https://dessay-photography.vercel.app/",
+        github: "https://github.com/francisnpls/Dessay-photography"
     },
     {
         id: 2,
@@ -104,7 +106,9 @@ export const projects = [
         tools: [
             "Vite", "React", "Tailwind", "Rapid API"
         ],
-        btn: "Take a look"
+        btn: "Take a look",
+        link: "https://youtube-clone-own.netlify.app/",
+        github: "https://github.com/francisnpls/Youtube_clone"
     },
     {
         id: 3,
@@ -115,7 +119,9 @@ export const projects = [
         tools: [
             "HTML", "CSS", "Bootstrap", "Javascript",
         ],
-        btn: "Take a look"
+        btn: "Take a look",
+        link: "https://tasty-bites-eight.vercel.app/",
+        github: "https://github.com/francisnpls/food-store"
     },
     {
         id: 4,
@@ -126,6 +132,7 @@ export const projects = [
         tools: [
             "Vite", "React", "Tailwind", "Framer Motion"
         ],
-        btn: "Take a look"
+        btn: "Take a look",
+        github: "https://github.com/francisnpls/francisnpls-bongshesh"
     }
 ];
