@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100;16..144,200;16..144,300;16..144,400;16..144,500;16..144,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #13141f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.black-gradient {
+  background: #191a2d;
+  background: -webkit-linear-gradient(0deg, #191a2d 0%, #13141f 100%);
+  background: linear-gradient(0deg, #191a2d 0%, #13141f 100%);
+}
+
+.font-outline {
+  -webkit-text-stroke: 2px #B4B4B4;
+  color: transparent;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 55px solid #6c6c6c6e;
+  position: relative;
+}
+
+.arrow::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 55px solid  #4769E3;
+  position: absolute;
+  left: 8px;
+  top: -35px;
+}
+
+.arrow-alternate {
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 50px solid #4769E3;
+  position: relative;
+}
+
+.arrow-alternate::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 53px solid #6c6c6c6e;
+  position: absolute;
+  left: 3px;
+  top: -40px;
+}
+
+.social-link::before {
+  content: "";
+  width: 49px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid #21222f;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+}
+
+.heading::before {
+  content: "";
+  width: 80%;
+  height: 1px;
+  background: #0059ff;
+  position: absolute;
+  bottom: 0;
+}
+
+.heading1::before {
+  content: "";
+  width: 80%;
+  height: 1px;
+  background: #0059ff;
+  position: absolute;
+  transform: translate(-50% -50%);
+  left: 10%;
+  bottom: 0
+}
+
+.box:after {
+    content: "";
+    width: 101%;
+    height: 101%;
+    position: absolute;
+    border: 2px solid #1A1B26;
+    border-radius: 30px;
+    top: -2px;
+    left: -1px;
+    transform: rotate(-1.8deg);
+    z-index: -1;
+}
+
+.cls-1 {
+  fill: none;
+  stroke: #4769E3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: .8px;
+  filter: drop-shadow(.4px .4px .4px #4769e37d);
+  width: 300px;
+}
