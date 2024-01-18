@@ -27,8 +27,8 @@ const Projects = () => {
             variants={upShow} initial="initial" whileInView="animate" viewport={{ once: true }}
           >
             <div className="flex gap-5 md:flex-row flex-col">
-              <div className="flex-[1.7] h-[370px]">
-                <img src={item.img} alt="" className="w-full h-full rounded-[10px]"/>
+              <div className="flex-[1.7] md:h-[370px]">
+                <img src={item.img} alt="" className="w-full h-full rounded-[10px] object-contain"/>
               </div>
 
               <div className="flex-1 relative">
