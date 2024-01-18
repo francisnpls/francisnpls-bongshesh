@@ -7,7 +7,7 @@ import Loading from './Loading';
 
 const Hero = () => {
   return (
-    <div id='hero' className={`${styles.padding3} h-screen w-full sm:block flex items-center  bg-bgPrimary relative`}>
+    <div id='hero' className={`${styles.padding1} h-screen w-full bg-bgPrimary relative`}>
       <Loading/>
       <div className="relative z-10 md:pt-0 ">
         <motion.h3 className="text-secondary font-[500] sm:tracking-[1px]" initial={{opacity:0}} animate={{opacity:1}} transition={{delay:2.4, duration:1}}> 
