@@ -6,7 +6,7 @@ const styles = {
 
     paddingX: "sm:px-10 px-6",
     paddingY: "sm:py-16 py-6",
-    padding1: "sm:px-10 px-6 sm:pb-12 sm:pt-[140px] pt-[80px] py-4",
+    padding1: "sm:px-10 px-6 sm:pb-12 sm:pt-[140px] pt-[100px] py-4",
     padding2: "sm:px-10 px-6 sm:pb-12 sm:pt-[100px] pt-[80px] py-4",
     padding3: "sm:px-10 px-6 sm:pb-12 sm:pt-[140px] py-4",
 
