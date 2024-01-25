@@ -25,7 +25,7 @@ const Forms = () => {
 
   return (
   <motion.div ref={ref}>
-    <div className="flex justify-center sm:items-center items-start">
+    <div className="flex justify-center sm:items-center items-start sm:mt-0">
       <motion.div 
         className="absolute" 
         initial={{opacity:1}} 

@@ -16,7 +16,7 @@ const Projects = () => {
           Projects
         </h1>
         <p className="text-lightWhite sm:text-[16px] text-[14px]">
-          Here is a list of the featured projects I have built.
+          Here is the list of the featured projects I have built.
         </p>
       </motion.div>
 

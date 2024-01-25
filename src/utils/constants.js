@@ -1,6 +1,6 @@
 import { about_1, about_2, about_3, about_4 } from '../../public';
 import { bootstrap, css, figma, gitlab, html, javascript, framerMotion, npm, react, tailwind, vscode, vite } from '../../public';
-import { dessayPhoto, youtubeClone, tastyBites, portfolio } from '../../public';
+import { dessayPhoto, youtubeClone, tastyBites, portfolio, todo } from '../../public';
 
 
 export const navLink = [
@@ -125,6 +125,19 @@ export const projects = [
     },
     {
         id: 4,
+        img: todo,
+        heading: "Todo Web App",
+        title: "My Todo List ",
+        description: "A Todo app with a dark/light mode theme switcher and local storage integration. This is a personal challenge I've set for myself as I am currently learning and practicing with the Redux Toolkit.",
+        tools: [
+            "Vite", "React", "Tailwind", "Redux"
+        ],
+        btn: "Take a look",
+        link: "https://todo-list-chi-jet.vercel.app/",
+        github: "https://github.com/francisnpls/todo_list"
+    },
+    {
+        id: 5,
         img: portfolio,
         heading: "Personal Portfolio",
         title: "Front-End Portfolio Website",
@@ -135,4 +148,5 @@ export const projects = [
         btn: "Take a look",
         github: "https://github.com/francisnpls/francisnpls-bongshesh"
     }
+    
 ];

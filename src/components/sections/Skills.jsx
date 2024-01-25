@@ -19,10 +19,10 @@ const Skills = () => {
       <motion.div className="flex justify-between items-center gap-2" variants={parentShow}>
         <div className="flex flex-col gap-6">
           <h1 className={`${styles.heading3} text-secondary w-[max-content] h-[max-content] heading relative`}>
-            Skills
+            Tech Stack
           </h1>
           <p className="text-lightWhite sm:text-[16px] text-[14px]">
-            Currently, this is the tech stack and tools that I used in designing and building websites
+            Currently, this is the tech stack and tools that I used in crafting and building websites
           </p>
         </div>
         <motion.div className="arrow-alternate sm:block hidden top-[15px]" variants={arrowAnimate} initial="initial" animate="animate"/>

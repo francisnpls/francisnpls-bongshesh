@@ -19,11 +19,12 @@ import react from './react.png';
 import sass from './sass.png';
 import tailwind from './tailwind.png';
 import tastyBites from './tastyBites.png';
+import todo from './todo.png';
 import vite from './vite.png';
 import vscode from './vscode.png';
 import youtubeClone from './youtubeClone.png';
 
 export {
     about_1, about_2, about_3, about_4, bootstrap, css, dessayPhoto, figma, firstBackground, framerMotion, gitlab, html, 
-    javascript, logo, message, npm, portfolio, react, sass, tailwind, tastyBites, vscode, vite, youtubeClone
+    javascript, logo, message, npm, portfolio, react, sass, tailwind, tastyBites, todo, vscode, vite, youtubeClone
 }

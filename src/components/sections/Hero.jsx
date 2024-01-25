@@ -23,7 +23,7 @@ const Hero = () => {
           I <span className="text-secondary"> design </span>  and <span className="text-secondary"> develop </span> web stuff.
         </motion.p>
         <motion.p className="text-primary sm:text-[17px] text-[14px] sm:w-full w-[95%] font-[400] mt-2 leading-[30px]" initial={{opacity:0}} animate={{opacity:1}} transition={{delay:3.3, duration:1}}> 
-          A Front-end developer who loves transform ideas into good interfaces and concepts <br className="md:block hidden" /> into captivating websites.
+          A Front-end web developer who loves transform ideas into good interfaces and concepts <br className="md:block hidden" /> into captivating websites.
         </motion.p>
         <div className="flex gap-5 sm:items-center item-start mt-5 sm:flex-row flex-col">
           <div className="flex gap-12">
