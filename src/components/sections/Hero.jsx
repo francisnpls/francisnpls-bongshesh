@@ -27,7 +27,7 @@ const Hero = () => {
         </motion.p>
         <div className="flex gap-5 sm:items-center item-start mt-5 sm:flex-row flex-col">
           <div className="flex gap-12">
-          <a href="https://drive.google.com/file/d/1XjXWaArQgS_Em0IAzFFPrQJ8Ub8TDiUH/view?usp=drive_link" target="_blank">
+          <a href="https://drive.google.com/file/d/1XygnzDZ_l_cLtm_y-_SKnvNlJMS-ye1L/view?usp=drive_link" target="_blank">
             <motion.button 
               className="w-[125px] p-[12px] text-lightWhite font-[400] border-solid border-[1px] border-secondary rounded-[10px] bg-[#4769e323] hover:bg-[#4769e314] cursor-pointer"
               variants={resumeButton}
